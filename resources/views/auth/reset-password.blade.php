@@ -5,7 +5,7 @@
 @section('content')
    <x-forms.auth-form
        title="Сброс пароля"
-       action="{{ route('password.update') }}"
+       action="{{ route('reset.handle') }}"
        method="POST"
    >
 

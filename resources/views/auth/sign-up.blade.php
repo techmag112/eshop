@@ -5,7 +5,7 @@
 @section('content')
    <x-forms.auth-form
        title="Регистрация"
-       action="{{ route('store') }}"
+       action="{{ route('register.handle') }}"
        method="POST"
    >
 
